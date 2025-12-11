@@ -1,10 +1,10 @@
 This repository documents an exploration into fundamental network reconnaissance and analysis techniques using essential ethical hacking tools like Nmap, tcpdump, and Scapy.
 The primary goals of this project were to:
-Network Discovery: Identify live hosts on a local network segment.
-Service and OS Fingerprinting: Determine the operating system and running services (especially SMB/NetBIOS) on a target host.
-Vulnerability Enumeration: Utilize Nmap scripting engine (NSE) for basic service enumeration (e.g., SMB share listing).
-Packet Capture and Analysis: Use tcpdump for low-level network traffic capture and Scapy for advanced interactive packet inspection and manipulation.
-Network Configuration Review: Review host network settings (ifconfig, ip route, DNS configuration).
+   1.Network Discovery: Identify live hosts on a local network segment.
+   2.Service and OS Fingerprinting: Determine the operating system and running services (especially SMB/NetBIOS) on a target host.
+   3.Vulnerability Enumeration: Utilize Nmap scripting engine (NSE) for basic service enumeration (e.g., SMB share listing).
+   4.Packet Capture and Analysis: Use tcpdump for low-level network traffic capture and Scapy for advanced interactive packet inspection and manipulation.
+   5.Network Configuration Review: Review host network settings (ifconfig, ip route, DNS configuration).
 
 The commands were executed in a controlled, isolated lab environment targeting a host at the IP address 10.6.6.23 within the 10.6.6.0/24 subnet.
 
